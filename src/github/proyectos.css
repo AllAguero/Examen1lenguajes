@@ -1,0 +1,81 @@
+.Github-Container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.ProjectsGit{
+    z-index: 10;
+    max-width: 1100px;
+    padding: 350px 0 50px 0;
+    position: relative;
+    top: -100px;
+}
+
+  
+
+
+
+.Project-bx{
+    height: 400px;
+    background: #e265e4;
+    text-align: center;
+    padding: 30px 30px;
+    margin-top: -60px;
+    border-radius: 24px;
+    cursor: grab;
+    cursor: -webkit-grab;
+}
+
+#container{
+    height: 340px;
+    border-radius: 64px;
+}
+
+  
+
+
+  
+
+#Name{
+   color: rgb(255, 255, 255);
+}
+#img{
+    width: 200px;
+    height: 150px;
+}
+
+.ProjectsGit h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px;
+}
+.ProjectsGit a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ocult {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 0.5s;
+  }
+  
+  .vis {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+
+.ProjectsGit-slider{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ProjectsGit-slider .item{
+ width: 50%;
+ margin: 0 auto 25px auto;
+}

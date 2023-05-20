@@ -1,6 +1,7 @@
 
 
 .contenedor {
+    height: 700px;
     display: flex;
     align-items: center;
   }
@@ -9,7 +10,7 @@
     animation: opacidad 1s ease-in-out forwards;
     max-width: 100%;
     height: auto;
-    margin-left: 10px; /* ajusta el margen izquierdo para separar la imagen de los títulos */
+    margin-left: 10px;
   }
   
   .titulos {
